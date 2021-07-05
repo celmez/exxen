@@ -1,6 +1,6 @@
-const exxenLogo = document.getElementById('exxen-log');
+const exxenLogo = document.getElementById('exxen-log')
 
 exxenLogo.addEventListener('click', () =>
 {
-    window.location.href = 'index.html';
-});
+    window.location.href = 'https://exxen.netlify.app'
+})
