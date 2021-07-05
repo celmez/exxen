@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
+    <link rel="icon" type="image/png" href="//wimage.exxen.com/content/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="//wimage.exxen.com/content/favicon/favicon-16x16.png" sizes="16x16" />
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <title>Exxen</title>
+</head>
+<body>
+    <div class="exxen-menu" id="exxen-menu">
+        <div class="exxen-logo" id="exxen-logo">
+            <img id="exxen-log" src="https://wimage.exxen.com/Content/img/landing/logo-web.svg" />
+        </div>
+
+        <div class="exxen-general" id="exxen-general">
+            <div class="exxen-login-btn" id="exxen-login-btn">
+                <a href="sign-in.html">
+                    Üye Girişi
+                </a>
+            </div>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+            <div class="exxen-language" id="exxen-language">
+                <img src="https://wimage.exxen.com/Content/img/lang-icon.svg" />
+
+                &nbsp;
+
+                <select id="select">
+                    <option id="tr" value="Türkçe">TR</option>
+                    <option id="en" value="English">EN</option>
+                    <option id="ar" value="العربية">AR</option>
+                    <option id="es" value="Español">ES</option>
+                </select>
+
+                <i class="fas fa-caret-down"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="exxen-sub-form" id="exxen-sub-form">
+        <form action="" method="POST">
+            <div class="exxen-form-control-1" id="exxen-form-control-1">
+                <input type="text" name="name" id="" placeholder="Ad Soyadı" />
+            </div>
+    
+            <div class="exxen-form-control-2" id="exxen-form-control-2">
+                <input type="email" name="email" placeholder="E-Posta Adresi" />
+            </div>
+            
+            <div class="exxen-form-control-3" id="exxen-form-control-3">
+                <button name="submit">Üye Ol</button>
+            </div>
+        </form>
+
+        <div class="exxen-form-control-4" id="exxen-form-control-4">
+            <p>
+                Ücretsiz Deneme Sürümü, EXXEN’e yeni üyelikler için geçerlidir.
+            </p>
+        </div>
+    </div>
+
+    <div class="exxen-content-1" id="exxen-content-1">
+        <div class="exxen-content-image-1" id="exxen-content-image-1">
+            <a href="#">
+                <img src="https://image.exxen.com//content/j/fv/22481/Poster.jpg?v=637586956042748891" />
+                <br>
+                <br>
+                <span>Tolgshow Filtresiz</span>
+            </a>
+        </div>
+        
+        <div class="exxen-content-image-2" id="exxen-content-image-2">
+            <a href="#">
+                <img src="https://image.exxen.com//content/o/VY/22502/Poster.jpg?v=637532538605140555" />
+                <br>
+                <br>
+                <span>Masterchef Junior</span>
+            </a>
+        </div>
+        
+        <div class="exxen-content-image-3" id="exxen-content-image-3">
+            <a href="#">
+                <img src="https://image.exxen.com//content/R/ex/34598/Poster.jpg?v=637488401910432303" />
+                <br>
+                <br>
+                <span>Ölüm Zamanı</span>
+            </a>
+        </div>
+        
+        <div class="exxen-content-image-4" id="exxen-content-image-4">
+            <a href="#">
+                <img src="https://image.exxen.com//content/c/tL/34597/Poster.jpg?v=637587007040591089" />
+                <br>
+                <br>
+                <span>Bir Yeraltı Sit-Com'u</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="exxen-content-1" id="exxen-content-1">
+        <div class="exxen-content-image-1" id="exxen-content-image-1">
+            <a href="#">
+                <img src="https://image.exxen.com//content/d/gp/34584/Poster.jpg?v=637586980280279296" />
+                <br>
+                <br>
+                <span>O Ses Türkiye Rap</span>
+            </a>
+        </div>
+        
+        <div class="exxen-content-image-2" id="exxen-content-image-2">
+            <a href="#">
+                <img src="https://image.exxen.com//content/n/lC/22377/Poster.jpg?v=637586984319364149" />
+                <br>
+                <br>
+                <span style="margin-left: 30%;">Konuşanlar</span>
+            </a>
+        </div>
+        
+        <div class="exxen-content-image-3" id="exxen-content-image-3">
+            <a href="#">
+                <img src="https://image.exxen.com//content/n/fY/34589/Poster.jpg?v=637586963821307674" />
+                <br>
+                <br>
+                <span>İlginç Bazı Olaylar</span>
+            </a>
+        </div>
+        
+        <div class="exxen-content-image-4" id="exxen-content-image-4">
+            <a href="#">
+                <img src="https://image.exxen.com//content/o/NY/36389/Poster.jpg?v=637559328844825934" />
+                <br>
+                <br>
+                <span>Kral Şakir Cumburlop</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="exxen-content-1" id="exxen-content-1">
+        <div class="exxen-content-image-1" id="exxen-content-image-1">
+            <a href="#">
+                <img src="https://image.exxen.com//content/E/a9/22465/Poster.jpg?v=637586985635654428" />
+                <br>
+                <br>
+                <span style="margin-left: 35%;">Katarsis</span>
+            </a>
+        </div>
+        
+        <div class="exxen-content-image-2" id="exxen-content-image-2">
+            <a href="#">
+                <img src="https://image.exxen.com//content/k/zQ/22771/Poster.jpg?v=637586985167502991" />
+                <br>
+                <br>
+                <span style="margin-left: 35%;">Hükümsüz</span>
+            </a>
+        </div>
+        
+        <div class="exxen-content-image-3" id="exxen-content-image-3">
+            <a href="#">
+                <img src="https://image.exxen.com//content/B/zW/22357/Poster.jpg?v=637586977014443745" />
+                <br>
+                <br>
+                <span style="margin-left: 35%;">Şeref Bey</span>
+            </a>
+        </div>
+        
+        <div class="exxen-content-image-4" id="exxen-content-image-4">
+            <a href="#">
+                <img src="https://image.exxen.com//content/s/2O/22396/Poster.jpg?v=637586996114804816" />
+                <br>
+                <br>
+                <span style="margin-left: 42%;">Gibi</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="exxen-content-1" id="exxen-content-1">
+        <div class="exxen-content-image-1" id="exxen-content-image-1">
+            <a href="#">
+                <img src="https://image.exxen.com//content/V/DZ/23932/Poster.jpg?v=637473766642105995" />
+                <br>
+                <br>
+                <span>Nusaybin Cinleri</span>
+            </a>
+        </div>
+        
+        <div class="exxen-content-image-2" id="exxen-content-image-2">
+            <a href="#">
+                <img src="https://image.exxen.com//content/G/ZI/22490/Poster.jpg?v=637586992667963394" />
+                <br>
+                <br>
+                <span style="margin-left: 30%;">@EnisArıkan</span>
+            </a>
+        </div>
+        
+        <div class="exxen-content-image-3" id="exxen-content-image-3">
+            <a href="#">
+                <img src="https://image.exxen.com//content/p/3-/22369/Poster.jpg?v=637586980510372038" />
+                <br>
+                <br>
+                <span>Sihirli Annem</span>
+            </a>
+        </div>
+        
+        <div class="exxen-content-image-4" id="exxen-content-image-4">
+            <a href="#">
+                <img src="https://image.exxen.com//content/5/83/22823/Poster.jpg?v=637586989907275021" />
+                <br>
+                <br>
+                <span>İşte Bu Benim Masalım</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="exxen-content-1" id="exxen-content-1">
+        <div class="exxen-content-image-1" id="exxen-content-image-1">
+            <a href="#">
+                <img src="https://image.exxen.com//content/q/xB/22406/Poster.jpg?v=637476282728230545" />
+                <br>
+                <br>
+                <span>Vahşi Şeyler</span>
+            </a>
+        </div>
+        
+        <div class="exxen-content-image-2" id="exxen-content-image-2">
+            <a href="#">
+                <img src="https://image.exxen.com//content/F/xa/34579/Poster.jpg?v=637488358833199690" />
+                <br>
+                <br>
+                <span style="margin-left: 30%;">Olağan Şüpheliler</span>
+            </a>
+        </div>
+        
+        <div class="exxen-content-image-3" id="exxen-content-image-3">
+            <a href="#">
+                <img src="https://image.exxen.com//content/f/XV/22478/Poster.jpg?v=637586957450432429" />
+                <br>
+                <br>
+                <span style="margin-left: 8%;">Zeynep Bastık ve Konukları</span>
+            </a>
+        </div>
+        
+        <div class="exxen-content-image-4" id="exxen-content-image-4">
+            <a href="#">
+                <img src="https://image.exxen.com//content/H/36/22460/Poster.jpg?v=637586965440657758" />
+                <br>
+                <br>
+                <span style="margin-left: 31%;">Yetiş Zeynep</span>
+            </a>
+        </div>
+    </div>
+    
+    <div class="exxen-content-1" id="exxen-content-1">
+        <div class="exxen-content-image-1" id="exxen-content-image-1">
+            <a href="#">
+                <img src="https://image.exxen.com//content/n/C6/23470/Poster.jpg?v=637580916245783922" />
+                <br>
+                <br>
+                <span>Süper 1 Takım</span>
+            </a>
+        </div>
+        
+        <div class="exxen-content-image-2" id="exxen-content-image-2">
+            <a href="#">
+                <img src="https://image.exxen.com//content/O/fO/22450/Poster.jpg?v=637508352434346726" />
+                <br>
+                <br>
+                <span style="margin-left: 30%;">Öğrenci Evi</span>
+            </a>
+        </div>
+        
+        <div class="exxen-content-image-3" id="exxen-content-image-3">
+            <a href="#">
+                <img src="https://image.exxen.com//content/h/DV/22867/Poster.jpg?v=637502287355111536" />
+                <br>
+                <br>
+                <span style="margin-left: 28%;">Sürprizimiz Var</span>
+            </a>
+        </div>
+        
+        <div class="exxen-content-image-4" id="exxen-content-image-4">
+            <a href="#">
+                <img src="https://image.exxen.com//content/o/Fu/23197/Poster.jpg?v=637458223695441314" />
+                <br>
+                <br>
+                <span style="margin-left: 25%;">Survivor Seçmeler</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="exxen-content-1" id="exxen-content-1">
+        <div class="exxen-content-image-1" id="exxen-content-image-1">
+            <a href="#">
+                <img src="https://image.exxen.com//content/5/1b/22828/Poster.jpg?v=637496246518382806" />
+                <br>
+                <br>
+                <span>Alper Rende ile Kaçış</span>
+            </a>
+        </div>
+        
+        <div class="exxen-content-image-2" id="exxen-content-image-2">
+            <a href="#">
+                <img src="https://image.exxen.com//content/i/ai/22482/Poster.jpg?v=637476300576219386" />
+                <br>
+                <br>
+                <span style="margin-left: 10%;">2008 Milli Takım Hikayesi</span>
+            </a>
+        </div>
+        
+        <div class="exxen-content-image-3" id="exxen-content-image-3">
+            <a href="#">
+                <img src="https://image.exxen.com//content/s/S3/22476/Poster.jpg?v=637468585924083814" />
+                <br>
+                <br>
+                <span style="margin-left: 15%;">Şanslı mı? Şanssız mı?</span>
+            </a>
+        </div>
+        
+        <div class="exxen-content-image-4" id="exxen-content-image-4">
+            <a href="#">
+                <img src="https://image.exxen.com//content/J/Ca/22780/Poster.jpg?v=637484174187914919" />
+                <br>
+                <br>
+                <span style="margin-left: 16%;">Enes Batur'la Buluşma</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="exxen-where-i-watching" id="exxen-where-i-watching">
+        <img src="https://wimage.exxen.com/content/img/landing/devices.svg" />
+
+        <p>
+            Hemen üye ol, cepte, tablette, bilgisayarda, istediğin zaman, istediğin yerde
+            <br>
+            exxen.com, Google Play, AppGallery, Apple Store, Apple TV ve Android TV'den
+            <br>
+            izlemeye başla.
+        </p>
+
+        <a href="#" id="exxen-apple-store">
+            <img src="https://wimage.exxen.com/content/img/app-store-2.svg" />
+        </a>
+        
+        <a href="#" id="exxen-google-play-store">
+            <img src="https://wimage.exxen.com/content/img/google-play@3x.png" />
+        </a>
+        
+        <a href="#" id="exxen-app-galery-store">
+            <img src="https://wimage.exxen.com/Content/img/landing/huawei-app-gallery@3x.png" />
+        </a>
+    </div>
+
+    <div class="exxen-social-media" id="exxen-social-media">
+        <a href="https://www.instagram.com/exxen/">
+            <img src="https://wimage.exxen.com/content/img/landing/instagram.svg" />
+        </a>
+        
+        <a href="https://www.facebook.com/exxen">
+            <img src="https://wimage.exxen.com/content/img/landing/facebook.svg" alt="">
+        </a>
+
+        <a href="https://www.twitter.com/Exxentr">
+            <img src="https://wimage.exxen.com/content/img/landing/twitter.svg" alt="">
+        </a>
+        
+        <a href="https://www.youtube.com/c/Exxen">
+            <img src="https://wimage.exxen.com/content/img/landing/youtube.svg" alt="">
+        </a>
+
+        <a href="https://www.tiktok.com/@exxen">
+            <img src="https://wimage.exxen.com/content/img/landing/tiktok.svg" alt="">
+        </a>
+    </div>
+
+    <footer class="exxen-footer" id="exxen-footer">
+        <a href="#">
+            Exxen Yardım Merkezi
+        </a>
+    </footer>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!--Section of JavaScript-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/location.js"></script>
+    <script type="text/javascript" src="js/sticky.js"></script>
+</body>
+</html>

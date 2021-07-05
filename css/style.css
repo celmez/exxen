@@ -1,0 +1,270 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body
+{
+    overflow-x: hidden;
+    background: #000000;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+:focus
+{
+    outline: 0;
+}
+
+.exxen-menu
+{
+    display: flex;
+    justify-content: space-around;
+    background: #ffcb04;
+    height: 120px;
+}
+
+.exxen-logo
+{
+    margin-top: 1.6%;
+    margin-left: 1.5%;
+}
+
+#exxen-log
+{
+    cursor: pointer;
+    user-select: none;
+}
+
+.exxen-general
+{
+    display: flex;
+    margin-top: 3.4%;
+    user-select: none;
+}
+
+.exxen-login-btn a
+{
+    border: 1px solid #090909;
+    background: none;
+    padding: 18px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #000000;
+}
+
+.exxen-language select
+{
+    appearance: none;
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.exxen-sub-form
+{
+    background: #121212;
+    height: 150px;
+    width: 100%;
+}
+
+.exxen-sub-form-open
+{
+    background: #121212;
+    height: 150px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 9999;
+}
+
+.exxen-sub-form form
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.exxen-sub-form-open form
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.exxen-form-control-1,
+.exxen-form-control-2,
+.exxen-form-control-3
+{
+    text-align: center;
+    margin-left: 200px;
+}
+
+.exxen-form-control-1 input[type=text],
+.exxen-form-control-2 input[type=email]
+{
+    margin-top: 25%;
+    border: 2px solid #c7c7c7;
+    height: 42px;
+    width: 200%;
+    text-indent: .4rem;
+    font-weight: bolder;
+}
+
+.exxen-form-control-1 input[type=text]::-webkit-input-placeholder,
+.exxen-form-control-2 input[type=email]::-webkit-input-placeholder
+{
+    font-weight: bolder;
+    color: black;
+    user-select: none;
+}
+
+.exxen-form-control-1 input[type=text]:focus,
+.exxen-form-control-2 input[type=email]:focus
+{
+    border: 4px solid #ffcb04!important;
+}
+
+.exxen-form-control-3 button
+{
+    margin-top: 16.5%;
+    text-align: center;
+    border: 2px solid #ffcb04;
+    background: #ffcb04;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 6px 100px;
+    cursor: pointer;
+}
+
+.exxen-form-control-4 p
+{
+    color: #adadad;
+    text-align: center;
+    margin-top: 1%;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.exxen-content-1
+{
+    display: flex;
+}
+
+.exxen-content-image-1 a span,
+.exxen-content-image-2 a span,
+.exxen-content-image-3 a span,
+.exxen-content-image-4 a span
+{
+    text-decoration: none;
+    margin-left: 20%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.exxen-content-image-1 a,
+.exxen-content-image-2 a,
+.exxen-content-image-3 a,
+.exxen-content-image-4 a
+{
+    text-align: center;
+    text-decoration: none;
+}
+
+.exxen-content-image-1
+{
+    margin-top: 2%;
+    margin-left: 16%;
+}
+
+.exxen-content-image-2,
+.exxen-content-image-3,
+.exxen-content-image-4
+{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.exxen-content-image-1 img,
+.exxen-content-image-2 img,
+.exxen-content-image-3 img,
+.exxen-content-image-4 img
+{
+    height: 350px;
+    width: 220px;
+}
+
+.exxen-where-i-watching
+{
+    text-align: center;
+}
+
+.exxen-where-i-watching img
+{
+    margin-top: 3%;
+}
+
+.exxen-where-i-watching p
+{
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 2%;
+    font-weight: bolder;
+}
+
+#exxen-apple-store,
+#exxen-google-play-store,
+#exxen-app-galery-store
+{
+    text-decoration: none;
+}
+
+#exxen-google-play-store img,
+#exxen-app-galery-store img
+{
+    height: 43.5px;
+    margin-left: 1%;
+}
+
+.exxen-social-media
+{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.exxen-social-media a
+{
+    margin-left: .5%;
+    text-decoration: none;
+}
+
+.exxen-footer
+{
+    border: 2px solid #090909;
+    background: #090909;
+    height: 60px;
+    text-align: center;
+    margin-left: 25.5%;
+    width: 50%;
+    margin-top: 2%;
+}
+
+.exxen-footer a
+{
+    text-decoration: none;
+    color: #ffcb04;
+    font-weight: bolder;
+    font-size: 25px;
+    position: relative;
+    top: 9px;
+}
